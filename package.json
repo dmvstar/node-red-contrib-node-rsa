@@ -1,0 +1,13 @@
+{
+    "name" : "node-red-contrib-node-rsa",
+    "node-red" : {
+        "nodes": {
+            "encryptRSA" : "encryptRSA.js",
+            "decryptRSA" : "decryptRSA.js"
+        }
+    },
+    "dependencies": {
+        "node-rsa": ">=1.0.6"
+        },
+    "version": "0.0.1"
+}
