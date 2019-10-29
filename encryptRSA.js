@@ -1,4 +1,5 @@
 const nodeRSA = require('node-rsa');
+
 module.exports = function(RED) {
     function encryptRSANode(config) {
         RED.nodes.createNode(this,config);
