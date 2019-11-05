@@ -1,13 +1,39 @@
 {
-    "name" : "node-red-contrib-node-rsa",
-    "node-red" : {
-        "nodes": {
-            "encryptRSA" : "encryptRSA.js",
-            "decryptRSA" : "decryptRSA.js"
-        }
-    },
-    "dependencies": {
-        "node-rsa": ">=1.0.6"
-        },
-    "version": "0.0.1"
+
+	"description": "Simple node for wrapping of node-rsa Node.js RSA library",
+
+	"author": [{
+			"name": "StarDust",
+			"email": "dmvstar.devel@gmail.com",
+			"url": "https://github.com/dmvstar"
+		}, {
+			"name": "Chebotarov",
+			"email": "swiftshade@gmail.com",
+			"url": "https://github.com/ArcanePhysics"
+		}
+	],
+
+	"keywords": [
+		"node-red",
+		"rsa"
+	],
+	"license": "MIT",
+
+	"name": "node-red-contrib-node-rsa",
+	"node-red": {
+		"nodes": {
+			"encryptRSA": "encryptRSA.js",
+			"decryptRSA": "decryptRSA.js"
+		}
+	},
+	"dependencies": {
+		"node-rsa": ">=1.0.6"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dmvstar/node-red-contrib-node-rsa.git"
+	},
+
+	"version": "0.0.2"
 }
