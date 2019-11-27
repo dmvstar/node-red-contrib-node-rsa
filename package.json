@@ -1,7 +1,7 @@
 {
 	"name": "node-red-contrib-node-rsa",
 	"description": "Simple node for wrapping of node-rsa Node.js RSA library",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/dmvstar/node-red-contrib-node-rsa.git"
@@ -20,17 +20,20 @@
 		"rsa"
 	],
 	"license": "MIT",
-	"author": [{
+	"author": [
+		{
 			"name": "StarDust",
 			"email": "dmvstar.devel@gmail.com",
 			"url": "https://github.com/dmvstar"
-		}, {
+		},
+		{
 			"name": "Chebotarov",
 			"email": "swiftshade@gmail.com",
 			"url": "https://github.com/ArcanePhysics"
 		}
 	],
-	"maintainers": [{
+	"maintainers": [
+		{
 			"name": "Stardust",
 			"email": "dmvstar.devel@gmail.com"
 		}
